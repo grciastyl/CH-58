@@ -1,0 +1,14 @@
+main {
+    display: flex;
+    height: calc(100vh - 85px);
+}
+
+#list{
+    background-color: rgb(157, 157, 247);
+    flex: 1;
+}
+
+#form{
+    background-color: rgb(177, 245, 177);
+    flex: 1;
+}
