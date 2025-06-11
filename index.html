@@ -13,7 +13,7 @@
 <body>
     <h1>Welcome to My Page</h1>
     <main>
-        <section id="list">GET</section>
+        <section id="list" class="get-list"></section>
         <section id="form">
             <div class="mt-3">Title</label>
                 <input type="text" class="form-control" id="txtTitle">
@@ -48,7 +48,9 @@
         </section>
     </main>
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-    <script src="./scripts/app.js"></script>
+    <script src="./src/Task.js"></script> 
+    <!-- app.js needs the info from task.js so task.js needs to go first -->
+    <script src="./src/app.js"></script>
 </body>
 
 </html>
